@@ -1,0 +1,77 @@
+/* Estilos para Tablet (768px - 1023px) */
+
+/* Header */
+.main-header {
+  padding: 1rem;
+}
+
+.main-nav {
+  display: flex;
+}
+
+/* Hero Section */
+.hero-section {
+  flex-direction: row;
+  align-items: center;
+  padding: 3rem 2rem;
+}
+
+.hero-content {
+  text-align: left;
+  padding-right: 3rem;
+  padding-bottom: 0;
+}
+
+.hero-title {
+  font-size: 2.25rem;
+}
+
+.hero-text {
+  margin: 0 0 2rem 0;
+}
+
+.hero-buttons {
+  justify-content: flex-start;
+}
+
+.hero-image-container {
+  margin: 0;
+}
+
+/* Servicios */
+.services-grid {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+/* Packs y Promos */
+.promos-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Instagram Section */
+.instagram-header {
+  flex-direction: row;
+}
+
+.instagram-profile {
+  margin-bottom: 0;
+}
+
+.instagram-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* Testimonials */
+.testimonials-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Contact Section */
+.contact-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* Footer */
+.footer-grid {
+  grid-template-columns: repeat(4, 1fr);
+}

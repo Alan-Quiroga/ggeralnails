@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ggeralnails</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/tablet.css" media="(min-width: 768px)">
+  <link rel="stylesheet" href="css/mobile.css" media="(max-width: 767px)">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="site-container">
+  <!-- NAVIGATION -->
+  <header class="main-header">
+    <div class="header-container">
+      <a href="#" class="logo-link">
+        <img src="images/logo.png" alt="ggeralnails Logo" class="logo-img" />
+      </a>
+      <nav class="main-nav">
+        <a href="#inicio" class="nav-link">INICIO</a>
+        <a href="#servicios" class="nav-link">SERVICIOS</a>
+        <a href="#lista-precios" class="nav-link">LISTA DE PRECIOS</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="inicio"  class="hero-section">
+    <div class="hero-content">
+      <h1 class="hero-title">
+        Bienvendos a <br/> ggeralnails,<br/> <span class="hero-title-highlight">tu destino en uñas y belleza</span>
+      </h1>
+      <p class="hero-text">
+        Donde la elegancia se encuentra con la perfección
+      </p>
+      <div class="hero-buttons">
+        <button class="btn btn-outline">Reservá tu cita hoy</button>
+        <button class="btn btn-primary">WHATSAPP</button>
+      </div>
+    </div>
+    <div class="hero-image-container">
+      <img src="images/modelo-logo.jpg" alt="Modelo con uñas y belleza" class="hero-image" />
+    </div>
+  </section>
+<!-- SERVICES -->
+<section id="servicios" class="services-section">
+  <h3 class="section-title">Nuestros Servicios</h3>
+  <div class="services-grid">
+    <!-- Esmaltado semipermanente -->
+    <div class="service-card">
+      <img src="images/esmalte.svg" alt="Icono de esmalte de uñas" class="esmalte-icon">
+      <h4 class="service-name">Esmaltado semipermanente</h4>
+      <p class="service-description">Duración 2-3 semanas, sin daño a la uña natural, variedad de colores</p>
+      <a href="#instagram" class="service-link">Ver más &gt;</a>
+    </div>
+    
+    <!-- Capping gel/polygel/acrílico -->
+    <div class="service-card service-card-highlight">
+      <img src="images/esmalte2.svg" alt="Icono de esmalte de uñas" class="esmalte-icon">
+      <h4 class="service-name">Capping gel/polygel/acrílico</h4>
+      <p class="service-description">Refuerzo para uñas naturales, duración 3-4 semanas, protección extra</p>
+      <a href="#instagram" class="service-link service-link-highlight">Ver más &gt;</a>
+    </div>
+    
+    <!-- Esculpidas en polygel/acrílico -->
+    <div class="service-card">
+      <img src="images/esmalte3.svg" alt="Icono de esmalte de uñas" class="esmalte-icon">
+      <h4 class="service-name">Esculpidas en polygel/acrílico</h4>
+      <p class="service-description">Extensiones personalizadas, hasta largo n2, forma y diseño a tu gusto</p>
+      <a href="#instagram" class="service-link">Ver más &gt;</a>
+    </div>
+    
+    <!-- Service esculpidas -->
+    <div class="service-card service-card-highlight">
+      <img src="images/esmalte4.svg" alt="Icono de esmalte de uñas" class="esmalte-icon">
+      <h4 class="service-name">Service esculpidas</h4>
+      <p class="service-description">Mantenimiento cada 21 días, relleno y retoque para conservar tus uñas</p>
+      <a href="#instagram" class="service-link service-link-highlight">Ver más &gt;</a>
+    </div>
+    
+    <!-- Remoción de esculpidas -->
+    <div class="service-card">
+      <img src="images/esmalte5.svg" alt="Icono de esmalte de uñas" class="esmalte-icon">
+      <h4 class="service-name">Remoción de esculpidas</h4>
+      <p class="service-description">Retiro profesional sin dañar tu uña natural, incluye hidratación</p>
+      <a href="#instagram" class="service-link">Ver más &gt;</a>
+    </div>
+  </div>
+</section>
+
+<!-- LISTA DE PRECIOS -->
+  <section id="lista-precios" class="precios-section">
+    <h3 class="section-title">LISTA DE PRECIOS</h3>
+    <p class="section-description">Servicios de manicura profesional</p>
+    
+    <div class="precios-listas-container">
+      <!-- Columna de Servicios Principales -->
+      <div class="precios-lista">
+        <h4 class="lista-titulo">Servicios Principales</h4>
+        <ul class="lista-items">
+          <li class="lista-item">
+            <div class="item-info">
+              <span class="item-nombre">Esmaltado semipermanente</span>
+            </div>
+            <span class="item-precio">$16.500</span>
+          </li>
+          <li class="lista-item">
+            <div class="item-info">
+              <span class="item-nombre">Capping gel/polygel/acrílico</span>
+            </div>
+            <span class="item-precio">$19.500</span>
+          </li>
+          <li class="lista-item">
+            <div class="item-info">
+              <span class="item-nombre">Esculpidas en polygel/acrílico</span>
+              <span class="item-detalle">(hasta el largo n2)</span>
+            </div>
+            <span class="item-precio">$23.000</span>
+          </li>
+          <li class="lista-item">
+            <div class="item-info">
+              <span class="item-nombre">Service esculpidas</span>
+              <span class="item-detalle">(hasta 21 días)</span>
+            </div>
+            <span class="item-precio">$20.000</span>
+          </li>
+          <li class="lista-item">
+            <div class="item-info">
+              <span class="item-nombre">Remoción de esculpidas</span>
+            </div>
+            <span class="item-precio">$9.000</span>
+          </li>
+        </ul>
+      </div>
+      
+      <!-- Columna de Extras -->
+      <div class="precios-lista">
+        <h4 class="lista-titulo">Extras</h4>
+        <ul class="lista-items">
+          <li class="lista-item">
+            <div class="item-info">
+              <span class="item-nombre">Francesita/cromado/babyboomer</span>
+            </div>
+            <span class="item-precio">$2.000</span>
+          </li>
+          <li class="lista-item">
+            <div class="item-info">
+              <span class="item-nombre">Joyeria</span>
+            </div>
+            <span class="item-precio">$800</span>
+          </li>
+          <li class="lista-item">
+            <div class="item-info">
+              <span class="item-nombre">Arreglo por uña</span>
+            </div>
+            <span class="item-precio">$2.000</span>
+          </li>
+          <li class="lista-item">
+            <div class="item-info">
+              <span class="item-nombre">Diseño simple</span>
+            </div>
+            <span class="item-precio">$500</span>
+          </li>
+          <li class="lista-item">
+            <div class="item-info">
+              <span class="item-nombre">Diseño medio</span>
+            </div>
+            <span class="item-precio">$900</span>
+          </li>
+          <li class="lista-item">
+            <div class="item-info">
+              <span class="item-nombre">Diseño full (complete)</span>
+            </div>
+            <span class="item-precio">$6.000</span>
+          </li>
+          <li class="lista-item">
+            <div class="item-info">
+              <span class="item-nombre">Remoción de semipermanente</span>
+            </div>
+            <span class="item-precio">$4.500</span>
+          </li>
+          <li class="lista-item">
+            <div class="item-info">
+              <span class="item-nombre">Remoción de capping</span>
+            </div>
+            <span class="item-precio">$6.000</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+ <!-- INSTAGRAM SECTION - Versión Mejorada -->
+    <section id="instagram" class="instagram-section">
+    <div class="instagram-header">
+        <div class="instagram-profile">
+        <img src="images/logo.png" alt="ggeralnails Instagram" class="instagram-logo" />
+        <div>
+            <p class="instagram-username">ggeralnails</p>
+            <p class="instagram-followers">463 Seguidores</p>
+        </div>
+        </div>
+        <button class="btn btn-instagram" id="follow-button"><a href="https://www.instagram.com/ggeralnails" target="_blank" >Seguir</a></button>
+    </div>
+    
+    <div class="instagram-grid">
+        <!-- Post 1 -->
+        <div class="instagram-post">
+        <img src="images/nails-1.jpg" alt="Uñas diseño 1" class="post-image" />
+        <div class="post-overlay">
+            <div class="post-stats">
+            <span class="stat"><i class="icon-heart">❤</i> 1.2k</span>
+            <span class="stat"><i class="icon-comment">💬</i> 84</span>
+            </div>
+        </div>
+        <span class="post-badge">Reels</span>
+        </div>
+        
+        <!-- Post 2 -->
+        <div class="instagram-post">
+        <img src="images/nails-2.jpg" alt="Uñas diseño 2" class="post-image" />
+        <div class="post-overlay">
+            <div class="post-stats">
+            <span class="stat"><i class="icon-heart">❤</i> 2.4k</span>
+            <span class="stat"><i class="icon-comment">💬</i> 156</span>
+            </div>
+        </div>
+        <span class="post-badge">Reels</span>
+        </div>
+        
+        <!-- Post 3 -->
+        <div class="instagram-post">
+        <img src="images/nails-3.jpg" alt="Uñas diseño 3" class="post-image" />
+        <div class="post-overlay">
+            <div class="post-stats">
+            <span class="stat"><i class="icon-heart">❤</i> 3.1k</span>
+            <span class="stat"><i class="icon-comment">💬</i> 212</span>
+            </div>
+        </div>
+        <span class="post-badge">Reels</span>
+        </div>
+        
+        <!-- Post 4 -->
+        <div class="instagram-post">
+        <img src="images/nails-4.jpg" alt="Uñas diseño 4" class="post-image" />
+        <div class="post-overlay">
+            <div class="post-stats">
+            <span class="stat"><i class="icon-heart">❤</i> 1.8k</span>
+            <span class="stat"><i class="icon-comment">💬</i> 97</span>
+            </div>
+        </div>
+        <span class="post-badge">Reels</span>
+        </div>
+    </div>
+    
+    <div class="instagram-footer">
+        <a href="https://www.instagram.com/ggeralnails" target="_blank" class="btn btn-outline btn-instagram-more">
+        Ver más en Instagram
+        </a>
+    </div>
+    </section>
+
+ <!-- CONTACT SECTION -->
+  <section id="contacto" class="contact-section">
+    <div class="contact-container">
+      <h2 class="section-title">¡Reserva tu Cita!</h2>
+      <p class="section-subtitle">Estamos listas para realzar tu belleza</p>
+      
+      <div class="contact-grid">
+        <!-- Información de Contacto -->
+        <div class="contact-info">
+          <div class="contact-card">
+            <div class="contact-item">
+              <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <div>
+                <h4 class="contact-label">Ubicación</h4>
+                <p class="contact-text">Colombres 359</p>
+                <p class="contact-text">Cdad. Autónoma de Buenos Aires</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <div>
+                <h4 class="contact-label">Teléfono</h4>
+                <p class="contact-text">+54 11 5180-1247</p>
+                <p class="contact-text">WhatsApp: +54 9 11 5180-1247</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+              </svg>
+              <div>
+                <h4 class="contact-label">Email</h4>
+                <p class="contact-text">reservas@tusalon.com</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <div>
+                <h4 class="contact-label">Horarios</h4>
+                <p class="contact-text">Lunes a Viernes: 10:00 - 20:00</p>
+                <p class="contact-text">Sábados: 10:00 - 18:00</p>
+                <p class="contact-text">Domingos: Cerrado</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Mapa de Google -->
+            <div class="map-container">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.497718207047!2d-58.418562599999994!3d-34.616860599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb4074da27f9%3A0xd9372657241c1856!2zZ2VyYWxuYWlsc_CfkpbinKg!5e0!3m2!1ses!2sar!4v1750645964682!5m2!1ses!2sar" 
+                      width="100%" 
+                      height="100%" 
+                      style="border:0;" 
+                      allowfullscreen="" 
+                      loading="lazy" 
+                      referrerpolicy="no-referrer-when-downgrade"
+                      class="google-map">
+              </iframe>
+            </div>
+
+          <!-- social links -->
+          <div class="social-links">
+            <a href="https://www.instagram.com/ggeralnails" target="_blank" class="social-link" aria-label="Instagram">
+              <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="#" target="_blank" class="social-link" aria-label="Facebook">
+              <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+            <a href="https://wa.me/5491151801247" target="_blank" class="social-link" aria-label="WhatsApp">
+              <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+              </svg>
+            </a>
+          </div>
+
+           
+        </div>
+                   
+        <!-- Formulario de Reserva -->
+        <div class="contact-form-container">
+          <h3 class="form-title">Reserva Online</h3>
+          <p class="form-subtitle">Complete el formulario y nos comunicaremos para confirmar</p>
+          
+          <form class="contact-form" id="reserva-form">
+            <div class="form-group">
+              <label for="nombre" class="form-label">Nombre completo*</label>
+              <input type="text" id="nombre" class="form-input" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="telefono" class="form-label">Teléfono*</label>
+              <input type="tel" id="telefono" class="form-input" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" class="form-input">
+            </div>
+            
+            <div class="form-group">
+              <label for="servicio" class="form-label">Servicio de interés*</label>
+              <select id="servicio" class="form-select" required>
+                <option value="" disabled selected>Seleccione un servicio</option>
+                <option value="esmaltado">Esmaltado semipermanente</option>
+                <option value="capping">Capping gel/polygel</option>
+                <option value="esculpidas">Uñas esculpidas</option>
+                <option value="otros">Otros servicios</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="fecha" class="form-label">Fecha preferida*</label>
+              <input type="date" id="fecha" class="form-input" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="mensaje" class="form-label">Mensaje adicional</label>
+              <textarea id="mensaje" class="form-textarea" rows="3"></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-reserva">
+              <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              Solicitar Reserva
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- FOOTER ULTRA DELGADO -->
+  <footer class="slim-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <img src="images/logo.png" alt="ggeralnails" class="footer-logo">
+        <span class="brand-name">ggeralnails</span>
+      </div>
+      
+      <div class="footer-info">
+        <div class="footer-section">
+          <h4>Contacto</h4>
+          <p>Colombres 359, CABA</p>
+          <p>+54 9 11 5180-1247</p>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Horarios</h4>
+          <p>Lun-Vie: 10:00 - 20:00</p>
+          <p>Sáb: 10:00 - 18:00</p>
+        </div>
+      </div>
+      
+      <div class="footer-social">
+        <a href="https://www.instagram.com/ggeralnails" target="_blank" class="social-icon">
+          <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2.16c3.2 0 3.58.01 4.85.07 3.17.15 4.77 1.7 4.92 4.92.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.15 3.18-1.7 4.77-4.92 4.92-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-3.18-.15-4.77-1.7-4.92-4.92-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.15-3.18 1.7-4.77 4.92-4.92 1.27-.06 1.65-.07 4.85-.07z"/>
+            <circle cx="12" cy="12" r="4"/>
+          </svg>
+        </a>
+        <a href="#" class="social-icon">
+           <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>© 2025 ggeralnails. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
