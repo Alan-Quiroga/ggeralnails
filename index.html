@@ -282,8 +282,8 @@
               </svg>
               <div>
                 <h4 class="contact-label">Teléfono</h4>
-                <p class="contact-text">+54 11 5180-1247</p>
-                <p class="contact-text">WhatsApp: +54 9 11 5180-1247</p>
+                <p class="contact-text"><a href="tel:+541151801247" target="_blank">+54 11 5180-1247</a></p>
+                <p class="contact-text">WhatsApp: <a href="https://wa.me/5491151801247" target="_blank">+54 9 11 5180-1247</a></p>
               </div>
             </div>
             
@@ -294,7 +294,7 @@
               </svg>
               <div>
                 <h4 class="contact-label">Email</h4>
-                <p class="contact-text">reservas@tusalon.com</p>
+                <p class="contact-text"><a href="mailto:ggeralnails@gmail.com" target="_blank">ggeralnails@gmail.com</a></p>
               </div>
             </div>
             
@@ -346,25 +346,25 @@
           <h3 class="form-title">¡Reserva en 1 minuto!</h3>
           <p class="form-subtitle">Complete el formulario y nos comunicaremos para confirmar</p>
           
-          <form class="contact-form" id="reserva-form">
+          <form class="contact-form" action="https://formspree.io/f/xnnvopgo" method="POST">
             <div class="form-group">
               <label for="nombre" class="form-label">Nombre completo*</label>
-              <input type="text" id="nombre" class="form-input" required>
+              <input type="text" id="nombre" name="nombre" class="form-input" required>
             </div>
             
             <div class="form-group">
               <label for="telefono" class="form-label">Teléfono*</label>
-              <input type="tel" id="telefono" class="form-input" required>
+              <input type="tel" id="telefono" name="telefono" class="form-input" required>
             </div>
             
             <div class="form-group">
               <label for="email" class="form-label">Email</label>
-              <input type="email" id="email" class="form-input">
+              <input type="email" id="email" name="email" class="form-input">
             </div>
             
             <div class="form-group">
               <label for="servicio" class="form-label">Servicio de interés*</label>
-              <select id="servicio" class="form-select" required>
+              <select id="servicio" name="servicio" class="form-select" required>
                 <option value="" disabled selected>Seleccione un servicio</option>
                 <option value="esmaltado">Esmaltado semipermanente</option>
                 <option value="capping">Capping gel/polygel</option>
@@ -375,13 +375,16 @@
             
             <div class="form-group">
               <label for="fecha" class="form-label">Fecha preferida*</label>
-              <input type="date" id="fecha" class="form-input" required>
+              <input type="date" id="fecha" name="fecha" class="form-input" required>
             </div>
             
             <div class="form-group">
               <label for="mensaje" class="form-label">Mensaje adicional</label>
-              <textarea id="mensaje" class="form-textarea" rows="3"></textarea>
+              <textarea id="mensaje" name="mensaje" class="form-textarea" rows="3"></textarea>
             </div>
+            
+            <input type="hidden" name="_subject" value="Nueva reserva desde el sitio web">
+            <input type="hidden" name="_language" value="es">
             
             <button type="submit" class="btn btn-reserva">
               <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
