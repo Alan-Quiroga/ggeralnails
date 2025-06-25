@@ -1,5 +1,8 @@
 /* Estilos para Tablet (768px - 1023px) */
-
+/* Ocultar menú mobile */
+.mobile-nav {
+    display: none !important;
+  }
 /* Header */
 .main-header {
   padding: 1rem;

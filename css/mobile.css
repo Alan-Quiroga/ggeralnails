@@ -1,5 +1,29 @@
 /* Estilos para Mobile (menos de 768px) */
+/* Menú Mobile Toggle desde Logo */
+.mobile-nav {
+  display: none;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: var(--off-white);
+  border-top: 1px solid var(--light-rose);
+}
 
+.mobile-nav.show {
+  display: flex;
+}
+
+.mobile-nav .nav-link {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--dark-purple);
+  text-decoration: none;
+  text-align: center;
+}
+
+.mobile-nav .nav-link:hover {
+  color: var(--plum);
+}
 /* Header */
 .main-header {
   padding: 1rem;

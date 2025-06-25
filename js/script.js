@@ -1,14 +1,18 @@
-// Interacciones realistas
-document.querySelectorAll('.instagram-post').forEach(post => {
-  post.addEventListener('click', () => {
-    window.open('https://www.instagram.com/paloma_nails_boutique/', '_blank');
-  });
-});
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggle = document.getElementById("mobile-menu-toggle");
+    const menu = document.getElementById("mobile-menu");
 
-// Botón Seguir interactivo
-const followBtn = document.getElementById('follow-button');
-followBtn.addEventListener('click', (e) => {
-  e.stopPropagation();
-  followBtn.classList.toggle('following');
-  followBtn.textContent = followBtn.classList.contains('following') ? 'Siguiendo' : 'Seguir';
-});
+    if (toggle && menu) {
+      toggle.addEventListener("click", () => {
+        menu.classList.toggle("show");
+      });
+    }
+
+    // Opcional: cerrar menú al hacer clic en un link
+    const links = menu.querySelectorAll(".nav-link");
+    links.forEach(link => {
+      link.addEventListener("click", () => {
+        menu.classList.remove("show");
+      });
+    });
+  });
