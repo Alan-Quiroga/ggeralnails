@@ -29,17 +29,11 @@ body {
   line-height: 1.6;
 }
 
-.site-container {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
 /* Header */
 .main-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 1rem 0;
   border-bottom: 2px solid var(--light-rose);
   background-color: var(--off-white);
@@ -100,6 +94,7 @@ body {
 .hero-section {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
   background: linear-gradient(135deg, var(--deep-violet), var(--mulberry));
   padding: 5rem 0;
