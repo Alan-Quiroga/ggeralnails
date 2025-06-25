@@ -301,20 +301,21 @@ body {
   border-color: var(--plum);
 }
 
-.service-icon {
-  width: 3.5rem;
-  height: 3.5rem;
+.esmalte-icon {
+  width: 7.5rem;  
+  height: 7.5rem; 
   margin-bottom: 1rem;
   color: var(--mulberry);
   transition: transform 0.3s ease;
 }
 
-.service-card:hover .service-icon {
-  transform: scale(1.1);
+.service-card:hover .esmalte-icon {
+  transform: scale(1.1); 
 }
 
-.service-card-highlight .service-icon {
+.service-card-highlight .esmalte-icon {
   color: var(--blush);
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
 }
 
 .service-name {
@@ -592,37 +593,6 @@ body {
   height: 250px;
   border: none;
   border-radius: 0.5rem;
-}
-
-/* Social Links */
-.social-links {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  margin-top: 2.5rem;
-}
-
-.social-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: var(--soft-pink);
-  color: var(--plum);
-  transition: all 0.3s ease;
-}
-
-.social-link:hover {
-  background-color: var(--plum);
-  color: white;
-  transform: translateY(-3px);
-}
-
-.social-icon {
-  width: 20px;
-  height: 20px;
 }
 
 /* Contact Form */
