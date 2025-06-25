@@ -112,6 +112,11 @@
 
 .service-name {
   font-size: 1rem;
+  display: block;            
+  word-wrap: break-word;     
+  overflow-wrap: break-word; 
+  text-align: center;        
+  max-width: 100%;           
 }
 
 .service-description {
