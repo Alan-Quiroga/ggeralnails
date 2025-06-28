@@ -803,6 +803,43 @@ body {
   animation-delay: 0.4s;
 }
 
+/* Loading Spinner Styles */
+.loading-spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 2rem;
+  grid-column: 1 / -1;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid var(--lavender-gray);
+  border-top: 5px solid var(--plum);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Error message styles */
+.error-message {
+  color: var(--rosewood);
+  text-align: center;
+  padding: 2rem;
+  grid-column: 1 / -1;
+  font-weight: 600;
+}
+
 /* INSTAGRAM SECTION - CSS COMPLETO MEJORADO */
 .instagram-section {
   background-color: var(--off-white);
